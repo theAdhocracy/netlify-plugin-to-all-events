@@ -1,1 +1,6 @@
 name: netlify-plugin-to-all-events
+inputs:
+  - name: keyword
+    default: toshi
+  - name: databaseUrl
+    required: true

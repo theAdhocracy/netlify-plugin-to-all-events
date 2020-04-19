@@ -8,8 +8,10 @@ module.exports = {
   onBuild: () => {
     console.log("onBuild: I run while build commands are being executed ⚙️");
   },
-  onPostBuild: () => {
+  onPostBuild: ({ inputs }) => {
     console.log("onPostBuild: I run _after_ build commands are executed ✅");
+    console.log(`I also know your keyword is: ${inputs.keyword}.`);
+    console.log(`Oh, and your database URL is: ${inputs.databaseUrl}.`);
   },
   onSuccess: () => {
     console.log("onSuccess: I run on build success 🎉");
