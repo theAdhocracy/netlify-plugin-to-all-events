@@ -13,8 +13,10 @@ module.exports = {
     console.log(`I also know your keyword is: ${inputs.keyword}.`);
     console.log(`Oh, and your database URL is: ${inputs.databaseUrl}.`);
   },
-  onSuccess: () => {
+  onSuccess: ({ constants }) => {
     console.log("onSuccess: I run on build success 🎉");
+    console.log("Here are some other things I know thanks to constants:");
+    console.log(constants);
   },
   onError: () => {
     console.log("onError: I run on build error 🚒");
