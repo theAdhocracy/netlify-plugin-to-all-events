@@ -17,12 +17,15 @@ module.exports = {
   },
   onSuccess: ({ utils }) => {
     console.log('onSuccess: I run on build success 🎉');
-    /* Uncomment this to see the onError code run.
-       This is also a good way to handle errors 👇
+    /*
+    // Uncomment this block to see the onError code run.
+    //  This is also a good way to handle errors 👇
     try {
       throw new Error('This is the error 🚨');
     } catch (error) {
-      utils.build.failBuild('Oh no! Error time!', { error });
+      utils.build.failBuild('Error found, build will fail!', { error });
+      // utils.build.failPlugin('This fails the plugin but not the build.');
+      // utils.build.cancelBuild(`This will cancel the build ${error}.`);
     }
     */
   },
