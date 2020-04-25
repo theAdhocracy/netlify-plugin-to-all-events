@@ -1,6 +1,8 @@
 name: netlify-plugin-to-all-events
 inputs:
   - name: keyword
+    description: Describe what keyword to look for
     default: toshi
   - name: databaseUrl
+    description: The URL of the database, duh
     required: true
