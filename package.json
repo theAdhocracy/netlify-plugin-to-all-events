@@ -1,6 +1,6 @@
 {
   "name": "netlify-plugin-to-all-events",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "An example project to plugin to all the Netlify build events 🔌!",
   "main": "index.js",
   "scripts": {
