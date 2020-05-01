@@ -1,0 +1,6 @@
+[[plugins]]
+package = "netlify-plugin-to-all-events"
+  [plugins.inputs]
+  triggerAll = true
+  keyword = "toshi"
+  databaseUrl = "https://database.com/v1/projects/1234/db/thingy"
