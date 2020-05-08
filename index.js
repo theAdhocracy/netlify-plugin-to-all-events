@@ -10,8 +10,9 @@ module.exports = function runPlugin(inputs) {
       onInit: () => {
         console.log('onInit: I run before anything else 🐣');
       },
-      onPreBuild: ({ inputs }) => {
+      onPreBuild: ({ inputs: { keyword } }) => {
         console.log('onPreBuild: I run_before_ build commands are executed 🌤');
+        console.log('I will only use the keyword input: ', keyword);
       },
       onBuild: ({ inputs }) => {
         console.log(
