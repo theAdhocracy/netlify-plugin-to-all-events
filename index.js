@@ -1,15 +1,12 @@
 module.exports = function runPlugin(inputs) {
   if (!inputs.triggerAll) {
     return {
-      onInit: () => {
+      onPreBuild: () => {
         console.log(`triggerAll set to ${inputs.triggerAll}, no fun 🤷🏻‍♀️!`);
       },
     };
   } else {
     return {
-      onInit: () => {
-        console.log('onInit: I run before anything else 🐣');
-      },
       onPreBuild: ({ inputs: { keyword } }) => {
         console.log('onPreBuild: I run_before_ build commands are executed 🌤');
         console.log('I will only use the keyword input: ', keyword);
