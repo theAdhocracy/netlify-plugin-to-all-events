@@ -1,4 +1,4 @@
-# 🔌 Netlify Plugin to All Events
+# 🔌 Netlify Plugin to All Events 🍱
 
 This is a [Build Plugin](https://docs.netlify.com/configure-builds/build-plugins/?utm_source=repo&utm_medium=all-events-tzm&utm_campaign=devex) that gives you a template to help you plug into the Netlify build events. It also showcases a few handy tools like inputs, constants, and error handling.
 
