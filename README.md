@@ -2,7 +2,7 @@
 
 This is a [Build Plugin](https://docs.netlify.com/configure-builds/build-plugins/?utm_source=repo&utm_medium=all-events-tzm&utm_campaign=devex) that gives you a template to help you plug into the Netlify build events. It also showcases a few handy tools like inputs, constants, and error handling.
 
-### Read the whole post on how this plugin is made [HERE](www.netlify.app/blog/2020/05/20/whats-a-netlify-build-plugin-series-part-2-making-build-plugins/?utm_source=repo&utm_medium=all-events-tzm&utm_campaign=devex) 
+### Read the whole post on how this plugin is made [HERE](https://www.netlify.app/blog/2020/05/20/whats-a-netlify-build-plugin-series-part-2-making-build-plugins/?utm_source=repo&utm_medium=all-events-tzm&utm_campaign=devex) 
 
 ## Usage
 
